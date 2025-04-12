@@ -1,10 +1,4 @@
-const response = await fetch(`https://54.162.25.118/users/login`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(credentials),
-  credentials: 'include', // Necesario para CORS con credenciales
-  mode: 'cors' // Fuerza modo CORS
-});
+const BASE_URL = "https://54.162.25.118/users";
 
 export const UserService = {
   async getAllRegisters() {
