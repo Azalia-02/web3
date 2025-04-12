@@ -1,4 +1,4 @@
-const BASE_URL = "//54.162.25.118/users";
+const BASE_URL = "https//54.162.25.118/users";
 
 export const UserService = {
   async getAllRegisters() {
